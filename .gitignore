@@ -87,3 +87,4 @@ sketch
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,react,yarn
+.prettierrc
