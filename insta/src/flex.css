@@ -1,0 +1,30 @@
+.firstline::first-line{
+    color: orange;
+
+}
+
+.firstline::first-letter{
+    color: red;
+}
+
+li::marker{
+    color: green;
+    font-size: 30px;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 24px;
+}
+
+.add::before{
+    content: "앞에다 추가한 텍스트 - ";
+    color: blue;
+    font-weight: 700;
+}
+
+.add::after{
+    content: " - 뒤에다 추가한 텍스트";
+    color: yellowgreen;
+    font-weight: 900;
+}

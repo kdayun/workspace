@@ -1,0 +1,49 @@
+/* div{
+  text-align: center;
+}
+.box{
+  border: grey 1px solid;
+  width: 400px;
+  height: 500px;
+  margin: 200px;
+}
+
+.title{ 
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+.ment{
+  font-size: 15px;
+  margin: 10px 0px;
+
+}
+.login{
+  background: rgb(0,149,246);
+  opacity: .7;
+  border: none;
+  border-radius: 8px;
+  
+  color: white;
+  margin-top:10px;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 30px;
+}
+
+
+.or{
+  margin: 20px;
+  color: rgb(115,115,115);
+}
+.or-line{
+  height: 1px;
+  content: rgb(115,115,115);
+  width: 150px;
+  display: inline-block;
+}
+
+.facebook-login{
+  font-size: 20px;
+  border: none;
+  
+} */
