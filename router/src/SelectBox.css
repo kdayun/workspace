@@ -1,0 +1,11 @@
+.select-box{
+    width: 231px;
+    height: 65px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFF;
+    background: #231815;
+}
