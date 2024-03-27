@@ -1,7 +1,13 @@
-function Modal() {
+import './Modal.css';
+function Modal({ isOpen, toggleModal, children }) {
     return (
-        <div className="modal">
-            <h2>제목</h2>
+        <div>
+            <div onClick={toggleModal}>버튼</div>
+            {isOpen && (
+                <div className="modal">
+                    <div className="modal-content">{children}</div>
+                </div>
+            )}
         </div>
     );
 }

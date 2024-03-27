@@ -1,0 +1,7 @@
+.reason{
+    width: 242px;
+height: 135px;
+flex-shrink: 0;
+border-radius: 20px;
+resize: none;
+}

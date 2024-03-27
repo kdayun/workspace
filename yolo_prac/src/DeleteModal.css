@@ -1,0 +1,33 @@
+.buttonOption{
+    display: flex;
+    
+}
+.cancle{
+    width: 116px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 23px;
+background: #266ED7;
+text-align: center;
+color: white;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+}
+
+.remove{
+    width: 116px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 23px;
+background: #FF2121;
+text-align: center;
+color: white;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+}
