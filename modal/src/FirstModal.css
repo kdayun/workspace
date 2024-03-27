@@ -1,0 +1,21 @@
+
+.modal {
+    position: fixed; /* 모달을 화면 중앙에 고정 */
+    left: 0;
+    top: 0;
+    width: 100%; /* 전체 화면을 커버 */
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5); /* 반투명 배경 */
+    display: flex;
+    justify-content: center; /* 내용을 중앙 정렬 */
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #E7DADA;;
+    padding: 20px;
+    border-radius: 30px; /* 모달 내용의 모서리를 둥글게 */
+    width: 514px; /* 적절한 너비 설정 */
+    height: 700px;
+
+}
