@@ -1,0 +1,7 @@
+.modal{
+    width: 286px;
+height: 182px;
+flex-shrink: 0;
+border-radius: 23px;
+background: #FFF;
+}
