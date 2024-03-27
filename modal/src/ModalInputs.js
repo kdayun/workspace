@@ -15,10 +15,6 @@ function ModalInputs() {
         setTone(e.target.value);
     };
 
-    const handleLengthChange = (e) => {
-        setLength(e.target.value);
-    };
-
     return (
         <div>
             <Modal isOpen={isModalOpen} toggleModal={toggleModal}>
@@ -29,12 +25,6 @@ function ModalInputs() {
                     className="inputs"
                     type="tone"
                     onChange={handleToneChange}
-                />
-                <h2>원하시는 길이를 선택해주세요</h2>
-                <SelectBox
-                    className="inputs"
-                    type="length"
-                    onChange={handleLengthChange}
                 />
             </Modal>
         </div>

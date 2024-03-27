@@ -19,14 +19,6 @@ function FirstModalInputs() {
         setLength(e.target.value);
     };
 
-    // useEffect(() => {
-    //     console.log(tone);
-    // }, [tone]);
-
-    // useEffect(() => {
-    //     console.log(length);
-    // }, [length]);
-
     return (
         <div>
             <FirstModal isOpen={isModalOpen} toggleModal={toggleModal}>
