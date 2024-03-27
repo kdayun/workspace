@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import FirstModal from './FirstModal';
 import './FirstModalInputs.css';
 import titleImage from '';
